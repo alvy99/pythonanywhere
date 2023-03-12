@@ -1,0 +1,15 @@
+class elem():
+    base_url = "http://barru.pythonanywhere.com/"
+    login_url = "https://barru.pythonanywhere.com/daftar"
+    register_url ="https://barru.pythonanywhere.com/daftar"
+    name = "//*[@id='name_register']"
+    email_reg = "//*[@id='email_register']"
+    pswd_reg = "//*[@id='password_register']"
+
+    email = "//*[@id='email']"
+    password = "//*[@id='password']"
+    btn_signup ="//*[@id='signUp']"
+    btn_login = "//*[@id='signin_login']"
+    btn_register = "//*[@id='signup_register']"
+    validasi_email = "//*[@id='swal2-content']"
+    validasi_password = "//*[@id='swal2-content']"
